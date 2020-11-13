@@ -1,0 +1,192 @@
+.deckContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+  overscroll-behavior-y: contain;
+}
+
+.deckContainer::after,
+.deckContainer::before {
+  content: "";
+  display: table;
+}
+
+.deck {
+  position: relative;
+  display: flex;
+  align-self: center;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .deck {
+    max-width: 460px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .deck {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .deck {
+    max-width: 860px;
+  }
+}
+
+.cardContainer {
+  width: 100%;
+  min-height: 380px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.cardContainer:hover {
+  cursor: grab;
+}
+
+.cardContainer:active {
+  cursor: grabbing;
+}
+
+.swipeNav {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 360px;
+}
+
+.swipeNav button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.swipeNav div *:focus,
+.swipeNav div *:active {
+  border-style: none;
+  border-width: 0;
+  outline: none;
+}
+
+.swipeAlert {
+  position: absolute;
+  z-index: 100000;
+  padding: 20px;
+  will-change: right, left, top, opacity;
+}
+
+.swipeAlert span {
+  font-size: 3em;
+  font-weight: 700;
+  font-family: "Maven Pro", "Impact", sans-serif !important;
+  letter-spacing: 0.5 !important;
+}
+
+.swipeAlert img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.swipeLike {
+  right: 16px;
+  color: green;
+  text-align: right;
+}
+
+.swipePass {
+  left: 16px;
+  color: red;
+  text-align: left;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 2px 15px 0 rgba(50, 50, 73, 0.15);
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cardHeader {
+  height: 60%;
+}
+
+.cardHeader h2 {
+  font-size: 3.5rem;
+  line-height: 0.9;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.cardHeader h3 {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-top: 0;
+}
+
+.cardBody {
+  height: 30%;
+  border-radius: 16px 16px 0 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cardBody p,
+.cardFooter p {
+  font-size: 18px;
+}
+
+.cardFooter {
+  height: 10%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cardHeader,
+.cardBody,
+.cardFooter {
+  padding: 8px 24px;
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  .deckContainer {
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .cardHeader {
+    height: 55%;
+  }
+
+  .cardHeader h2 {
+    font-size: 2.875rem;
+  }
+
+  .cardBody {
+    height: 30%;
+  }
+
+  .cardBody p,
+  .cardFooter p {
+    font-size: 14px;
+  }
+}
