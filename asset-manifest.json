@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.84b6be1a.chunk.css",
-    "main.js": "/static/js/main.95c86738.chunk.js",
-    "main.js.map": "/static/js/main.95c86738.chunk.js.map",
+    "main.js": "/static/js/main.e39f25fb.chunk.js",
+    "main.js.map": "/static/js/main.e39f25fb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03fd840b.js",
     "runtime-main.js.map": "/static/js/runtime-main.03fd840b.js.map",
     "static/js/2.2030ded1.chunk.js": "/static/js/2.2030ded1.chunk.js",
@@ -16,12 +16,13 @@
     "static/media/oof.png": "/static/media/oof.98031d4e.png",
     "static/media/ouch.png": "/static/media/ouch.adb4aee9.png",
     "static/media/pow.png": "/static/media/pow.7ab65187.png",
-    "static/media/smash.png": "/static/media/smash.5ab141fb.png"
+    "static/media/smash.png": "/static/media/smash.5ab141fb.png",
+    "static/media/swiper-logo.png": "/static/media/swiper-logo.802585f8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.03fd840b.js",
     "static/js/2.2030ded1.chunk.js",
     "static/css/main.84b6be1a.chunk.css",
-    "static/js/main.95c86738.chunk.js"
+    "static/js/main.e39f25fb.chunk.js"
   ]
 }
