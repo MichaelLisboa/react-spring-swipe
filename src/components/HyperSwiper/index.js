@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Deck from "./Deck";
-import { data } from "../../Data";
 
-async function fetchCards() {
+async function fetchCards(data) {
     const cardData = data;
     const res = await cardData
     return res
@@ -15,7 +14,7 @@ const HyperSwiper = ({data, ...props}) => {
     useEffect(
         () => {
             setCards({})
-            fetchCards()
+            fetchCards(data)
             .then(result => {
                 const characters = result.map((a) => [Math.random(),a]).sort((a,b) => a[0]-b[0]).map((a) => a[1]);
                 setCards(characters.slice(0,10))
@@ -26,14 +25,6 @@ const HyperSwiper = ({data, ...props}) => {
             })
         }, [isEmpty]
     )
-
-    // useEffect(
-    //     () => {
-    //         if (isEmpty) {
-    //             console.log("IS EMPTY NO MORE CARDS, run a function")
-    //         }
-    //     }, [isEmpty]
-    // )
 
     return (
         cards.length ?

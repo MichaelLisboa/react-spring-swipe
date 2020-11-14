@@ -29,7 +29,7 @@ export const data = [
             "place_of_birth": "Alberta, Canada",
             "first_appearance": "Incredible Hulk Vol. 2 #180",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -78,18 +78,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Detective Comics #140 (1948)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "No data"
@@ -140,7 +140,7 @@ export const data = [
             "place_of_birth": "New York City, New York",
             "first_appearance": "Daredevil #1 (April, 1964)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -192,7 +192,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Marvel Premiere #15 (May 1974)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -245,7 +245,7 @@ export const data = [
             "place_of_birth": "Long Island, New York",
             "first_appearance": "Tales of Suspence #39 (March, 1963)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -298,7 +298,7 @@ export const data = [
             "place_of_birth": "Long Island, New York",
             "first_appearance": "Tales of Suspence #39 (March, 1963)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -351,7 +351,7 @@ export const data = [
             "place_of_birth": "Chicago, Illinois",
             "first_appearance": "Werewolf by Night #32 (August, 1975)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -400,11 +400,11 @@ export const data = [
             "place_of_birth": "Van Nuys, California",
             "first_appearance": "Captain America Vol. 1 #192 (December, 1975)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Female",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "5'11",
                 "180 cm"
@@ -453,7 +453,7 @@ export const data = [
             "place_of_birth": "Gotham City",
             "first_appearance": "Detective Comics #569",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -506,7 +506,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Batman #1 (Spring 1940)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -554,7 +554,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "DETECTIVE COMICS #58 (December, 1941)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -603,7 +603,7 @@ export const data = [
             "place_of_birth": "Manhattan, New York City, New York",
             "first_appearance": "Captain America Comics #1 (March 1941)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -653,11 +653,11 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Captain Atom #1",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "Human / Radiation",
+            "race": "Human",
             "height": [
                 "6'4",
                 "193 cm"
@@ -705,7 +705,7 @@ export const data = [
             "place_of_birth": "Braddock Manor, England",
             "first_appearance": "Captain Britain #1 (October, 1976)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -758,18 +758,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Flash Vol 4 #6 (April, 2012)",
             "publisher": "DC Comics",
-            "alignment": "neutral"
+            "alignment": "Villain-ish"
         },
         "appearance": {
             "gender": "Male",
             "race": "Human",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "Brown",
             "hair_color": "Brown"
@@ -790,12 +790,12 @@ export const data = [
         "id": "153",
         "name": "Captain Epic",
         "powerstats": {
-            "intelligence": "null",
-            "strength": "null",
-            "speed": "null",
-            "durability": "null",
-            "power": "null",
-            "combat": "null"
+            "intelligence": "No data",
+            "strength": "No data",
+            "speed": "No data",
+            "durability": "No data",
+            "power": "No data",
+            "combat": "No data"
         },
         "biography": {
             "full_name": "",
@@ -805,19 +805,19 @@ export const data = [
             ],
             "place_of_birth": "Canada",
             "first_appearance": "World War II",
-            "publisher": "Team Epic TV",
-            "alignment": "good"
+            "publisher": "",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "6'2",
                 "188 cm"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "Blue",
             "hair_color": "Brown"
@@ -854,18 +854,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "South Park S14 E11 \"Coon 2: Hindsight\"",
             "publisher": "South Park",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
             "race": "Human",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "Black"
@@ -886,12 +886,12 @@ export const data = [
         "id": "155",
         "name": "Captain Mar-vell",
         "powerstats": {
-            "intelligence": "null",
+            "intelligence": "No data",
             "strength": "80",
-            "speed": "null",
-            "durability": "null",
-            "power": "null",
-            "combat": "null"
+            "speed": "No data",
+            "durability": "No data",
+            "power": "No data",
+            "combat": "No data"
         },
         "biography": {
             "full_name": "Mar-Vell",
@@ -903,11 +903,11 @@ export const data = [
             "place_of_birth": "The city of Rad-Nam on the planet Kree-Lar in the Kree Galaxy (Greater Magellanic Cloud)",
             "first_appearance": "MARVEL SUPERHEROES #18",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Kree",
             "height": [
                 "6'2'",
                 "188 cm"
@@ -954,7 +954,7 @@ export const data = [
             "place_of_birth": "Fawcett City, United States",
             "first_appearance": "Whiz Comics no. 2 (1940)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -1006,11 +1006,11 @@ export const data = [
             "place_of_birth": "Boston, Massachusetts",
             "first_appearance": "Ms. Marvel #1",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
-            "race": "Human-Kree",
+            "race": "Human/Kree",
             "height": [
                 "5'11",
                 "180 cm"
@@ -1038,12 +1038,12 @@ export const data = [
         "id": "159",
         "name": "Captain Midnight",
         "powerstats": {
-            "intelligence": "null",
-            "strength": "null",
-            "speed": "null",
-            "durability": "null",
-            "power": "null",
-            "combat": "null"
+            "intelligence": "No data",
+            "strength": "No data",
+            "speed": "No data",
+            "durability": "No data",
+            "power": "No data",
+            "combat": "No data"
         },
         "biography": {
             "full_name": "",
@@ -1061,18 +1061,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "No data",
             "publisher": "Dark Horse Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
             "race": "Human",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "No data"
@@ -1111,18 +1111,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Captain Planet and the Planeteers (TV Series)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "God / Eternal",
+            "race": "God/Eternal",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "Red",
             "hair_color": "Green"
@@ -1143,12 +1143,12 @@ export const data = [
         "id": "161",
         "name": "Captain Universe",
         "powerstats": {
-            "intelligence": "null",
+            "intelligence": "No data",
             "strength": "92",
-            "speed": "null",
-            "durability": "null",
-            "power": "null",
-            "combat": "null"
+            "speed": "No data",
+            "durability": "No data",
+            "power": "No data",
+            "combat": "No data"
         },
         "biography": {
             "full_name": "",
@@ -1161,18 +1161,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Micronauts #8 (August, 1979)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "No data",
-            "race": "God / Eternal",
+            "race": "God/Eternal",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "No data"
@@ -1211,7 +1211,7 @@ export const data = [
             "place_of_birth": "New York City area",
             "first_appearance": "Amazing Spider-Man #50 (July, 1967)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -1262,7 +1262,7 @@ export const data = [
             "place_of_birth": "Titan",
             "first_appearance": "Iron Man #55",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -1312,7 +1312,7 @@ export const data = [
             "place_of_birth": "Wundagore Mountain, Transia (in Eastern Europe)",
             "first_appearance": "X-MEN Vol. 1 #4",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -1360,7 +1360,7 @@ export const data = [
             "place_of_birth": "Zenn-La",
             "first_appearance": "Fantastic Four, Vol. 1 #48",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -1409,11 +1409,11 @@ export const data = [
             "place_of_birth": "The village of Kamekeri, Costa Verde",
             "first_appearance": "Avengers #8 (1998)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "5'2",
                 "157 cm"
@@ -1457,7 +1457,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Batman #357 (March, 1983)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -1507,7 +1507,7 @@ export const data = [
             "place_of_birth": "Queens, New York",
             "first_appearance": "Amazing Spider-Man #4 (September, 1963)",
             "publisher": "Marvel Comics",
-            "alignment": "neutral"
+            "alignment": "Villain-ish"
         },
         "appearance": {
             "gender": "Male",
@@ -1560,18 +1560,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Flash Vol 2 #138",
             "publisher": "DC Comics",
-            "alignment": "neutral"
+            "alignment": "Villain-ish"
         },
         "appearance": {
             "gender": "Male",
-            "race": "God / Eternal",
+            "race": "God/Eternal",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "No data"
@@ -1609,7 +1609,7 @@ export const data = [
             "place_of_birth": "Hibbardsville, Kansas",
             "first_appearance": "Flash Comics #1 (January 1940)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -1641,12 +1641,12 @@ export const data = [
         "id": "264",
         "name": "Flash Gordon",
         "powerstats": {
-            "intelligence": "null",
+            "intelligence": "No data",
             "strength": "69",
-            "speed": "null",
-            "durability": "null",
-            "power": "null",
-            "combat": "null"
+            "speed": "No data",
+            "durability": "No data",
+            "power": "No data",
+            "combat": "No data"
         },
         "biography": {
             "full_name": "Steven Gordon",
@@ -1656,19 +1656,19 @@ export const data = [
             ],
             "place_of_birth": "No data",
             "first_appearance": "Flash Gordon #1 (september 1966)",
-            "publisher": "null",
-            "alignment": "good"
+            "publisher": "",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "No data"
@@ -1707,12 +1707,12 @@ export const data = [
             ],
             "place_of_birth": "Fallville, Iowa",
             "first_appearance": "Showcase #4 (October, 1956)",
-            "publisher": "Black Racer",
-            "alignment": "good"
+            "publisher": "",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "Black Racer",
+            "race": "Human",
             "height": [
                 "6'0",
                 "183 cm"
@@ -1756,18 +1756,18 @@ export const data = [
             "place_of_birth": "Blue Valley, Nebraska",
             "first_appearance": "Flash #110 (January, 1960)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
             "race": "Human",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "Green",
             "hair_color": "Red"
@@ -1805,7 +1805,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "More Fun Comics #73 (November 1941)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -1854,7 +1854,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "(as Speedy) More Fun Comics # 73(Nov. 1941), (as Arsenal) The New Titans # 99 (July 1993), (as Red Arrow) Justice League of America Vol. 2 # 7 (May 2007)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -1910,7 +1910,7 @@ export const data = [
             "place_of_birth": "Anchorage, Alaska",
             "first_appearance": "X-Men #1 (September, 1963)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -1962,11 +1962,11 @@ export const data = [
             "place_of_birth": "Caldecott County, Mississippi",
             "first_appearance": "Avengers Annual #10 (1981)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "5'8",
                 "173 cm"
@@ -2017,11 +2017,11 @@ export const data = [
             "place_of_birth": "Dayton, Ohio",
             "first_appearance": "Incredible Hulk #1 (May, 1962)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "Human / Radiation",
+            "race": "Human",
             "height": [
                 "8'0",
                 "244 cm"
@@ -2065,7 +2065,7 @@ export const data = [
             "place_of_birth": "Los Angeles, California",
             "first_appearance": "She-Hulk (Vol. 1) #1",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -2113,8 +2113,8 @@ export const data = [
             ],
             "place_of_birth": "Place of birth unknown",
             "first_appearance": "Amazing Spider-Man # 149 (as Spider-Clone), Web of Spider-Man # 117 (as Ben Reilly)",
-            "publisher": "Spider-Carnage",
-            "alignment": "good"
+            "publisher": "Marvel Comics",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -2146,12 +2146,12 @@ export const data = [
         "id": "617",
         "name": "Spider-Carnage",
         "powerstats": {
-            "intelligence": "null",
+            "intelligence": "No data",
             "strength": "69",
-            "speed": "null",
-            "durability": "null",
-            "power": "null",
-            "combat": "null"
+            "speed": "No data",
+            "durability": "No data",
+            "power": "No data",
+            "combat": "No data"
         },
         "biography": {
             "full_name": "Benjamin Reilly",
@@ -2161,19 +2161,19 @@ export const data = [
             ],
             "place_of_birth": "No data",
             "first_appearance": "No data",
-            "publisher": "Scarlet Spider",
-            "alignment": "bad"
+            "publisher": "Marvel Comics",
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
-            "race": "Symbiote",
+            "race": "Alien Symbiote",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "No data"
@@ -2210,7 +2210,7 @@ export const data = [
             "place_of_birth": "New York City, New York",
             "first_appearance": "What If? Vol 2 #105 (February, 1998)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -2258,7 +2258,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Edge of Spider-Verse #2",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -2320,7 +2320,7 @@ export const data = [
             "place_of_birth": "New York, New York",
             "first_appearance": "Amazing Fantasy #15",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -2371,7 +2371,7 @@ export const data = [
             "place_of_birth": "London, England",
             "first_appearance": "Marvel Spotlight #32 (February, 1977)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -2421,18 +2421,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Adventures of Superman #466 (May, 1990)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
             "race": "Cyborg",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "Blue",
             "hair_color": "Black"
@@ -2447,60 +2447,6 @@ export const data = [
         },
         "image": {
             "url": "https://www.superherodb.com/pictures2/portraits/10/100/667.jpg"
-        }
-    },
-    {
-        "id": "644",
-        "name": "Superman",
-        "powerstats": {
-            "intelligence": "94",
-            "strength": "100",
-            "speed": "100",
-            "durability": "100",
-            "power": "100",
-            "combat": "85"
-        },
-        "biography": {
-            "full_name": "Clark Kent",
-            "alter_egos": "Superman Prime One-Million",
-            "aliases": [
-                "Clark Joseph Kent",
-                "The Man of Steel",
-                "the Man of Tomorrow",
-                "the Last Son of Krypton",
-                "Big Blue",
-                "the Metropolis Marvel",
-                "the Action Ace"
-            ],
-            "place_of_birth": "Krypton",
-            "first_appearance": "ACTION COMICS #1",
-            "publisher": "Superman Prime One-Million",
-            "alignment": "good"
-        },
-        "appearance": {
-            "gender": "Male",
-            "race": "Kryptonian",
-            "height": [
-                "6'3",
-                "191 cm"
-            ],
-            "weight": [
-                "225 lb",
-                "101 kg"
-            ],
-            "eye_color": "Blue",
-            "hair_color": "Black"
-        },
-        "work": {
-            "occupation": "Reporter for the Daily Planet and novelist",
-            "base": "Metropolis"
-        },
-        "connections": {
-            "group_affiliation": "Justice League of America, The Legion of Super-Heroes (pre-Crisis as Superboy), Justice Society of America (pre-Crisis Earth-2 version), All-Star Squadron (pre-Crisis Earth-2 version)",
-            "relatives": "Lois Lane (wife), Jor-El (father, deceased), Lara (mother, deceased), Jonathan Kent (adoptive father), Martha Kent (adoptive mother), Seyg-El (paternal grandfather, deceased), Zor-El (uncle, deceased), Alura (aunt, deceased), Supergirl (Kara Zor-El, cousin), Superboy (Kon-El/Conner Kent, partial clone)"
-        },
-        "image": {
-            "url": "https://www.superherodb.com/pictures2/portraits/10/100/791.jpg"
         }
     },
     {
@@ -2523,8 +2469,8 @@ export const data = [
             ],
             "place_of_birth": "No data",
             "first_appearance": "Detective Comics #359",
-            "publisher": "Oracle",
-            "alignment": "good"
+            "publisher": "DC Comics",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -2556,12 +2502,12 @@ export const data = [
         "id": "64",
         "name": "Batgirl",
         "powerstats": {
-            "intelligence": "null",
+            "intelligence": "No data",
             "strength": "27",
-            "speed": "null",
-            "durability": "null",
-            "power": "null",
-            "combat": "null"
+            "speed": "No data",
+            "durability": "No data",
+            "power": "No data",
+            "combat": "No data"
         },
         "biography": {
             "full_name": "Mary Elizabeth Kane",
@@ -2572,19 +2518,19 @@ export const data = [
             ],
             "place_of_birth": "No data",
             "first_appearance": "Batman #139",
-            "publisher": "Hawkfire",
-            "alignment": "good"
+            "publisher": "DC Comics",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "No data"
@@ -2622,7 +2568,7 @@ export const data = [
             "place_of_birth": "Crest Hill, Bristol Township, Gotham County",
             "first_appearance": "Detective Comics #27",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -2670,7 +2616,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "No data",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -2718,11 +2664,11 @@ export const data = [
             "place_of_birth": "Chicago, Illinois",
             "first_appearance": "Captain America #323 (1986) (as Bucky)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "6'6",
                 "198 cm"
@@ -2766,18 +2712,18 @@ export const data = [
             "place_of_birth": "Chicago, Illinois",
             "first_appearance": "Detective Comics #400 (June, 1970)",
             "publisher": "DC Comics",
-            "alignment": "neutral"
+            "alignment": "Villain-ish"
         },
         "appearance": {
             "gender": "Male",
             "race": "Human",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "Brown",
             "hair_color": "Brown"
@@ -2815,11 +2761,11 @@ export const data = [
             "place_of_birth": "Project Cadmus cloning facility",
             "first_appearance": "Adventures of Superman #500 (June, 1993)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Clone",
             "height": [
                 "5'7",
                 "170 cm"
@@ -2863,7 +2809,7 @@ export const data = [
             "place_of_birth": "Krypton (Earth-Prime)",
             "first_appearance": "DC Comics Presents #87 (November, 1985)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -2922,7 +2868,7 @@ export const data = [
             "place_of_birth": "Argo City, Krypton",
             "first_appearance": "Superman/Batman #8 (May, 2004)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -2975,8 +2921,8 @@ export const data = [
             ],
             "place_of_birth": "Krypton",
             "first_appearance": "ACTION COMICS #1",
-            "publisher": "Superman Prime One-Million",
-            "alignment": "good"
+            "publisher": "DC Comics",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -3031,8 +2977,8 @@ export const data = [
             ],
             "place_of_birth": "Canada",
             "first_appearance": "New Mutants #98 (February, 1991)",
-            "publisher": "Evil Deadpool",
-            "alignment": "neutral"
+            "publisher": "Marvel Comics",
+            "alignment": "Villain-ish"
         },
         "appearance": {
             "gender": "Male",
@@ -3080,7 +3026,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "WORLD'S FINEST COMICS #3 (Fall, 1941)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -3120,7 +3066,7 @@ export const data = [
             "combat": "64"
         },
         "biography": {
-            "full_name": "Ultron",
+            "full_name": "",
             "alter_egos": "No alter egos found.",
             "aliases": [
                 "Crimson Cowl",
@@ -3137,7 +3083,7 @@ export const data = [
             "place_of_birth": "Created in Cresskill, New Jersey",
             "first_appearance": "Avengers #54 (July, 1968)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -3185,7 +3131,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Web of Spider-Man #86 (March, 1992)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -3237,11 +3183,11 @@ export const data = [
             "place_of_birth": "Created in Sinister's Labs, Nebraska",
             "first_appearance": "Uncanny X-Men #168",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Female",
-            "race": "null",
+            "race": "Science Experiment",
             "height": [
                 "5'6",
                 "168 cm"
@@ -3294,7 +3240,7 @@ export const data = [
             "place_of_birth": "Hartford, Connecticut",
             "first_appearance": "Amazing Spider-Man #14 (July, 1964)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -3342,11 +3288,11 @@ export const data = [
             "place_of_birth": "New York City",
             "first_appearance": "Amzing Spide-Man #31",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "5'10",
                 "178 cm"
@@ -3391,7 +3337,7 @@ export const data = [
             "place_of_birth": "Haasenstadt, Latveria",
             "first_appearance": "Fantastic Four #5 (July 1962)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -3439,7 +3385,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "More Fun Comics #55 (May, 1940)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -3494,7 +3440,7 @@ export const data = [
             "place_of_birth": "Schenectady, New York",
             "first_appearance": "Amazing Spider-Man #3 (July 1963)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -3546,7 +3492,7 @@ export const data = [
             "place_of_birth": "Philadelphia, Pennsylvania",
             "first_appearance": "Strange Tales #110 (July, 1963)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -3594,7 +3540,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Action Comics #23",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -3644,8 +3590,8 @@ export const data = [
             ],
             "place_of_birth": "Asgard",
             "first_appearance": "Journey into Mystery #83 (August, 1962)",
-            "publisher": "Rune King Thor",
-            "alignment": "good"
+            "publisher": "Marvel Comics",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -3704,7 +3650,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Thor, Volume 2, #22, (as Thor Girl) Thor, Volume 2, #33",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -3736,12 +3682,12 @@ export const data = [
         "id": "94",
         "name": "Black Abbott",
         "powerstats": {
-            "intelligence": "null",
-            "strength": "null",
-            "speed": "null",
-            "durability": "null",
-            "power": "null",
-            "combat": "null"
+            "intelligence": "No data",
+            "strength": "No data",
+            "speed": "No data",
+            "durability": "No data",
+            "power": "No data",
+            "combat": "No data"
         },
         "biography": {
             "full_name": "",
@@ -3752,18 +3698,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Marvel Team Up #146 (1984)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "No data",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "Red",
             "hair_color": "Black"
@@ -3803,11 +3749,11 @@ export const data = [
             "place_of_birth": "Kahndaq, Egypt",
             "first_appearance": "Marvel Family #1 (December, 1945)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "6'3",
                 "191 cm"
@@ -3851,7 +3797,7 @@ export const data = [
             "place_of_birth": "Attilan, Atlantic Ocean",
             "first_appearance": "Fantastic Four #45 (December, 1965)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -3899,7 +3845,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Justice League of America (Volume 1) #75",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -3947,7 +3893,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Flash Comics #86 (August, 1947)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -3995,7 +3941,7 @@ export const data = [
             "place_of_birth": "Queens, New York",
             "first_appearance": "Amazing Spider-Man #194 (July, 1979)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -4048,18 +3994,18 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Flash Vol 2 #138",
             "publisher": "DC Comics",
-            "alignment": "neutral"
+            "alignment": "Villain-ish"
         },
         "appearance": {
             "gender": "Male",
-            "race": "God / Eternal",
+            "race": "God/Eternal",
             "height": [
                 "No data",
-                "0 cm"
+                "No data"
             ],
             "weight": [
                 "- lb",
-                "0 kg"
+                "No data"
             ],
             "eye_color": "No data",
             "hair_color": "No data"
@@ -4098,7 +4044,7 @@ export const data = [
             "place_of_birth": "Gloucester, Massachusetts",
             "first_appearance": "Avengers #47 (1967)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -4146,11 +4092,11 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Black Lightning #1 (April 1977)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "6'1",
                 "185 cm"
@@ -4194,11 +4140,11 @@ export const data = [
             "place_of_birth": "Chicago, Illinois",
             "first_appearance": "Marvel Two-In-One #64",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Female",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "5'7",
                 "170 cm"
@@ -4244,7 +4190,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Aquaman #35 (August, 1967)",
             "publisher": "DC Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -4298,7 +4244,7 @@ export const data = [
             "place_of_birth": "Wakanda, Africa",
             "first_appearance": "Fantastic Four Vol. 1 #52 (1966)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -4356,7 +4302,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Tales of Suspense #52",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -4404,7 +4350,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Ghost Rider Vol 3 #2 (June, 1990)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -4452,14 +4398,14 @@ export const data = [
                 "Joe Silvermane",
                 "Guiseppi Manfredi"
             ],
-            "place_of_birth": "Professional Criminal",
+            "place_of_birth": "Unknown",
             "first_appearance": "Daredevil #118 (February, 1975)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "6'1",
                 "185 cm"
@@ -4504,7 +4450,7 @@ export const data = [
             "place_of_birth": "Armechadon",
             "first_appearance": "Thunderstrike #6 (March, 1994)",
             "publisher": "Marvel Comics",
-            "alignment": "No data"
+            "alignment": "Villain-ish"
         },
         "appearance": {
             "gender": "Male",
@@ -4555,7 +4501,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Wonder Woman (vol. 2) #105 (January 1996)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -4604,11 +4550,11 @@ export const data = [
             "place_of_birth": "Paterson, New Jersey",
             "first_appearance": "AVENGERS #9",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "6'2",
                 "188 cm"
@@ -4657,7 +4603,7 @@ export const data = [
             "place_of_birth": "Themyscira",
             "first_appearance": "All-Star Comics #8 (December, 1941)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Female",
@@ -4707,7 +4653,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Hellboy: Seed of Destruction (1993)",
             "publisher": "Dark Horse Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -4755,7 +4701,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Batman #16 (April, 1943)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -4808,8 +4754,8 @@ export const data = [
             ],
             "place_of_birth": "Elmsford, New York",
             "first_appearance": "Tales to Astonish #27 (January, 1962) (as Hank Pym)  Tales to Astonish #35 (September, 1962) (as Ant-Man)",
-            "publisher": "Giant-Man",
-            "alignment": "good"
+            "publisher": "Marvel Comics",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -4857,7 +4803,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Strange Adventures #180 (September, 1965)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -4910,7 +4856,7 @@ export const data = [
             "place_of_birth": "Akkaba, Egypt",
             "first_appearance": "X-Factor #5 (June, 1986)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -4958,7 +4904,7 @@ export const data = [
             "place_of_birth": "Waukegan, Illinois",
             "first_appearance": "Marvel Spotlight #5 (August, 1972)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -5009,7 +4955,7 @@ export const data = [
             "place_of_birth": "New York City",
             "first_appearance": "Sgt. Fury and His Howling Commandos #1 (1963)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -5057,11 +5003,11 @@ export const data = [
             "place_of_birth": "Somewhere in the Bavarian Alps",
             "first_appearance": "GIANT-SIZE X-MEN #1",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Mutant",
             "height": [
                 "5'9'",
                 "175 cm"
@@ -5109,7 +5055,7 @@ export const data = [
             "place_of_birth": "New York, New York",
             "first_appearance": "Captain America #117 (September, 1969)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -5165,11 +5111,11 @@ export const data = [
             "place_of_birth": "An unidentified village in Germany",
             "first_appearance": "Captain America Comics #1 (1941), (modern) Tales of Suspense #66 (1965)",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
-            "race": "null",
+            "race": "Human",
             "height": [
                 "6'2",
                 "188 cm"
@@ -5214,8 +5160,8 @@ export const data = [
             ],
             "place_of_birth": "No data",
             "first_appearance": "Detective Comics #38 (April, 1940)",
-            "publisher": "Batman II",
-            "alignment": "good"
+            "publisher": "DC Comics",
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -5264,7 +5210,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Dime Press #4 (May 1, 1993)",
             "publisher": "Dark Horse Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -5312,7 +5258,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Marvel Preview #4 (January, 1976)",
             "publisher": "Marvel Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -5364,7 +5310,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Omega Men # 3",
             "publisher": "DC Comics",
-            "alignment": "neutral"
+            "alignment": "Villain-ish"
         },
         "appearance": {
             "gender": "Male",
@@ -5420,7 +5366,7 @@ export const data = [
             "place_of_birth": "Jotunheim, Asgard",
             "first_appearance": "Journey into Mystery Vol. 1 #85",
             "publisher": "Marvel Comics",
-            "alignment": "bad"
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
@@ -5470,7 +5416,7 @@ export const data = [
             "place_of_birth": "No data",
             "first_appearance": "Detective Comics #225 (1955)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -5517,12 +5463,12 @@ export const data = [
             ],
             "place_of_birth": "New York, New York",
             "first_appearance": "(as alien costume) Secret Wars #8, (behind the scenes) Web of Spider-Man #18, (actual appearance) Amazing Spider-Man #300",
-            "publisher": "Anti-Venom",
-            "alignment": "bad"
+            "publisher": "Marvel Comics",
+            "alignment": "Villain"
         },
         "appearance": {
             "gender": "Male",
-            "race": "Symbiote",
+            "race": "Alien Symbiote",
             "height": [
                 "6'3",
                 "191 cm"
@@ -5571,7 +5517,7 @@ export const data = [
             "place_of_birth": "Atlantis",
             "first_appearance": "More Fun Comics #73 (November, 1941)",
             "publisher": "DC Comics",
-            "alignment": "good"
+            "alignment": "Hero"
         },
         "appearance": {
             "gender": "Male",
@@ -5638,7 +5584,7 @@ export const data = [
                 "place_of_birth": "Queens, New York",
                 "first_appearance": "AMAZING SPIDER-MAN #129",
                 "publisher": "Marvel Comics",
-                "alignment": "good"
+                "alignment": "Hero-ish"
             },
             "appearance": {
                 "gender": "Male",

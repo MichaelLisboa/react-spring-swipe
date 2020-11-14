@@ -7,20 +7,40 @@ import SwipeAlert from "./SwipeAlert";
 import SwipeNav from "./SwipeNav";
 import style from "./Deck.module.css";
 
+// const to = i => ({
+//     x: 0,
+//     y: i * -1.25,
+//     scale: 1,
+//     rot: -3 + Math.random() * 9,
+//     delay: i * 100
+// })
+//
+// const from = i => ({
+//     x: 0,
+//     rot: 0,
+//     scale: 1.5,
+//     y: -(500 + window.innerHeight),
+// })
+
 const to = i => ({
     x: 0,
     y: i * -1.25,
     scale: 1,
     rot: -3 + Math.random() * 9,
-    delay: i * 100
-})
+    delay: i * 100,
+    config: {
+        mass: 1.5,
+        friction: 30,
+        tension: 300
+    }
+});
 
 const from = i => ({
     x: 0,
     rot: 0,
     scale: 1.5,
-    y: -(500 + window.innerHeight),
-})
+    y: -1000
+});
 
 const Deck = ({cards, setIsEmpty}) => {
     const { height, width } = useWindowDimensions();

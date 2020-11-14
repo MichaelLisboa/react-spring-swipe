@@ -36,11 +36,11 @@ export default function SwipeAlert({
         },
         to: async next => {
             await next({
-                top: "0%",
+                top: "-10%",
                 opacity: 1
             })
             await next({
-                top: "0%",
+                top: "-10%",
                 opacity: 0
             })
             await next({
@@ -54,10 +54,17 @@ export default function SwipeAlert({
     return (
         choice.value &&
         <a.div className={`${style.swipeAlert} ${choice.dir === 1 ? style.swipeLike : style.swipePass}`} style={trans}>
+            {choice.dir === 1 ?
             <img
-                src={choice.dir === 1 ? love() : hate()}
+                src={love()}
                 alt={choice.value}
-                width="144" />
+                width="288" />
+            :
+            <img
+                src={hate()}
+                alt={choice.value}
+                width="288" />
+            }
         </a.div>
     )
 }
