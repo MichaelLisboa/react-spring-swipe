@@ -40,7 +40,7 @@ const HyperSwiper = ({data, ...props}) => {
         <Deck cards={cards} setIsEmpty={setIsEmpty} />
         :
         <div style={{height: "100vh", display: "flex", alignItems: "center", justifyContent: "center"}}>
-            <small style={{color: "#666"}}>loading</small>
+            <small style={{color: "#fff"}}>loading</small>
         </div>
     )
 }

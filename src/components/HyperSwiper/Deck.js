@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import { useSprings, animated as a, interpolate } from "react-spring";
-import { useGesture, useDrag } from "react-use-gesture";
-import { useModal } from "../../hooks/useModal";
+import { useDrag } from "react-use-gesture";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import Card from "./Card";
 import SwipeAlert from "./SwipeAlert";
@@ -13,20 +12,14 @@ const to = i => ({
     y: i * -1.25,
     scale: 1,
     rot: -3 + Math.random() * 9,
-    delay: i * 100,
-    opacity: 1,
-    config: {
-        mass: 1.5,
-        friction: 30,
-        tension: 300
-    } })
+    delay: i * 100
+})
 
 const from = i => ({
     x: 0,
     rot: 0,
     scale: 1.5,
     y: -(500 + window.innerHeight),
-    opacity: 0
 })
 
 const Deck = ({cards, setIsEmpty}) => {

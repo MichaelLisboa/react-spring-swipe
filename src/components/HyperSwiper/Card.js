@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import { animated as a, interpolate } from "react-spring";
 
 import style from "./Deck.module.css";

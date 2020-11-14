@@ -5,10 +5,6 @@ import love from "../../images/Love.png";
 
 export default function SwipeNav({deck, cardIndex, bind, forceSwipe, height}) {
 
-    const toggleModal = (e) => {
-        console.log("TOGGLE MODAL", e.currentTarget)
-    }
-
     return (
         <div className={`${style.swipeNav}`}>
                 <div>
