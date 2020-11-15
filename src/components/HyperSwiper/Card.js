@@ -99,7 +99,13 @@ const Card = ({bind, current, active, card, gone, rot, scale, height}) => {
                             src={info}
                             onClick={() => setFlipped(state => !state)}
                             alt={`Get ${card.name}'s info'`}
-                            style={{position: "absolute", top: "-16px", right: "16px", zIndex: "10"}}
+                            style={{
+                                position: "absolute",
+                                top: "-16px",
+                                right: "16px",
+                                zIndex: "10",
+                                cursor: "pointer"
+                            }}
                             width="40" />
                     </div>
                 </div>
@@ -139,6 +145,9 @@ const Card = ({bind, current, active, card, gone, rot, scale, height}) => {
                             src={back}
                             onClick={() => setFlipped(state => !state)}
                             alt={`Get ${card.name}'s info'`}
+                            style={{
+                                cursor: "pointer"
+                            }}
                             width="40" />
                     </div>
                 </div>
